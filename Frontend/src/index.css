@@ -1,0 +1,70 @@
+@media (max-width:576px){
+    .head-navlist{
+        display: none !important;
+    }
+    #hero{
+        height: 250px !important;
+        width: 576px !important;
+        background-image: url(https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg.webp);
+        background-size: contain !important;
+        background-repeat: no-repeat;
+
+    }
+    .hero-content{
+        height: 200px !important;
+        h1{
+            font-size:16px ;
+        }
+    }
+    #banner{
+        height: 400px;
+        width: 576px !important;
+        .banner-content{
+            gap: 20px;
+            flex-direction: column !important;
+            align-items: center;
+            .banner-img{
+                height: 400px !important;
+                img{
+                    height: 100% !important;
+                    width: 100% !important;
+                    object-fit:cover !important;
+                }
+            }
+        }
+    }
+    #products{
+        padding-bottom: 250px !important;
+        width: 560px !important;
+        min-height: 600px !important;
+        .categories{
+            display: flex !important;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product-wrapper{
+            width: 73% !important;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .card{
+            width: 180px !important;
+        }
+
+    }
+    #DayOFWeek{
+        padding-bottom: 100px;
+    }
+    .week-wrapper{
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+
+
+
+    
+}

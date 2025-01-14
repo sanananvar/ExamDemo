@@ -1,6 +1,6 @@
 import {connect } from "mongoose"
 
-connect("mongodb+srv://sananaaaf206:senan2113@senan.27znz.mongodb.net/")
+connect("mongodb+srv://elekberovsenan0:senan2112@clusterlocal.sk4vz.mongodb.net/")
 .then(()=>{
-    console.log("connected")
+    console.log("Dbconnected")
 })

@@ -19,7 +19,7 @@ const AddProductSchema = Yup.object().shape({
     .url("Invalid URL")
     .required("Required")
     .min(5, "Too Short!")
-    .max(250, "Too Long!"),
+    .max(10000, "Too Long!"),
 });
 
 function AddProduct() {
